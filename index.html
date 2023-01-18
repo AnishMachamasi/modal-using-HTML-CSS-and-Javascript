@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="style.css">
+	<link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
+	<link rel="stylesheet" type="text/css" href="https://unicons.iconscout.com/release/v3.0.6/css/line.css">
+    <title>Modal</title>
+</head>
+<body>
+    
+    <button class="view-modal" id="myBtn">Open Modal</button>
+    <div class="popup" id="myModal">
+        <header>
+            <span> Modal</span>
+            <div class="close" id="closeid"><i class="uil uil-times"></i></div>
+        </header>
+        <div class="content">
+            <p>Share this link via</p>
+            <ul class="icons">
+                <a href="#"><i class="fab fa-facebook-f"></i></a>
+                <a href="#"><i class="fab fa-twitter"></i></a>
+                <a href="#"><i class="fab fa-linkedin"></i></a>
+                <a href="#"><i class="fab fa-discord"></i></a>
+                <a href="#"><i class="fab fa-whatsapp"></i></a>
+                
+            </ul>
+
+            <p>Or copy link</p>
+            <div class="field">
+                <i class="url-icon uil uil-link"></i>
+                <input type="text" readonly value="https://www.linkedin.com/in/anish-machamasi-224220219/">
+                <button>Copy</button>
+            </div>
+        </div>
+    </div>
+
+
+    <script type="text/javascript" src="script.js"></script>
+
+</body>
+</html>
